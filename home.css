@@ -7,20 +7,21 @@ body {
 
 }
 
-h1 {
 
-    font-size: 800%;
-    color: RGB(250, 250, 250);
+h1 {
+    font-size: 700%;
+    color: RGB(255, 255, 255);
     margin:189px 300px ;
-    font-family: "Amatic SC", cursive;
+    font-family: "Megrim", cursive;
 }
 
 ul {
+  font-family: "Comfortaa", cursive;
   list-style-type: none;
   margin:0;
   padding:0;
   overflow: hidden;
-  background-color: #8D9092;
+  background-color: transparent;
 }
 
 li {
@@ -41,5 +42,5 @@ li a {
 }
 
 li a:hover {
-  background-color: #D1D3D4;
+  background-color: RGB(160, 160, 160);
 }

@@ -7,10 +7,10 @@ body {
 
 }
 
-h1 {
 
+h1 {
     font-size: 800%;
-    color: RGB(250, 250, 250);
+    color: RGB(255, 255, 255);
     margin:189px 300px ;
     font-family: "Amatic SC", cursive;
 }
@@ -40,6 +40,10 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #D1D3D4;
+}
+
+.active {
+    background-color: #4CAF50;
 }
