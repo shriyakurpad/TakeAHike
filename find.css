@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 600%;
+  font-size: 400%;
   color: RGB(255, 255, 255);
   margin: 25px 300px ;
   font-family: "Megrim", cursive;
@@ -72,7 +72,3 @@ li a:active {
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
   color: white;
 }
-
-
-  /*background-color: rgba(182, 170, 249, 0.8);
-  cursor: pointer;*/
