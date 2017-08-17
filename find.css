@@ -13,6 +13,29 @@ h1 {
   font-family: "Megrim", cursive;
 }
 
+h2 {
+  text-align: center;
+}
+
+#element{
+  margin: 50px 450px;
+  width:350px;
+  color:white;
+  text-align: left;
+  font-family: "Comfortaa", cursive;
+  background-color: rgba(177, 156, 249, .85);
+  border:white 1px solid;
+  padding:24px;
+  /*filter:alpha(opacity = 85);
+  -moz-opacity:.90;
+  opacity:.9;*/
+  border-radius: 15px;
+}
+
+#form{
+  font-family: "Comfortaa", cursive;
+}
+
 ul {
   font-family: "Comfortaa", cursive;
   list-style-type: none;
@@ -48,7 +71,7 @@ li a:active {
   background-color: rgba(218, 189, 253, 0.4);
 }
 
-
+/*
 .button {
   display: inline-block;
   width: 180px;
@@ -72,3 +95,4 @@ li a:active {
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
   color: white;
 }
+*/

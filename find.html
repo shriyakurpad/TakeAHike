@@ -15,27 +15,40 @@
   <li><a href = about.html> About </a></li>
   <li><a href = find.html> Find </a></li>
   <li><a href = essentials.html> Essentials </a></li>
+  <li style="float:right"><a href = login.html>Log In/Out</a></li>
 </ul>
 
 <h1>Find the Perfect Hike!</h1>
 
-<form action="/action_page.php">
-  <br>
-  <input type="text" name="ZIPCODE" value=" ">
-  <br>ZIPCODE<br>
 
-  <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+<div id = "element">
+  <h2>Difficulty:</h2>
+  <form align = "center">
+    <div>
+      <select name = "Difficulty">
+        <option value = "Easy">Easy</option>
+        <option value = "Moderate">Moderate</option>
+        <option value = "Hard">Hard</option>
+      </select>
     </div>
-  </div>
+    <!--<input type = "submit">-->
+  </form>
+  <h2>Location:</h2>
+  <form align = "center">
+    <div>
+      <select name = "Locations">
+        <option value = "Coastal">Coastal</option>
+        <option value = "Southwest">Southwest</option>
+        <option value = "North_Pudget_Sound">North Pudget Sound</option>
+        <option value = "North_Central">North Central</option>
+        <option value = "South_Central">South Central</option>
+        <option value = "Eastern">Eastern</option>
+      </select>
+    </div>
+  </form>
+<input type = "submit"></input>
+</div>
 
-  <br>
-  <input type="submit" value="Submit">
-</form>
 </body>
 
 </body>

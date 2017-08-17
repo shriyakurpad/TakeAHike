@@ -9,8 +9,23 @@ body {
 h1 {
   font-size: 600%;
   color: RGB(255, 255, 255);
-  margin: 25px 300px ;
+  margin: 20px 300px ;
   font-family: "Megrim", cursive;
+}
+
+#element{
+  margin: 30px 135px;
+  width:1000px;
+  color:white;
+  text-align: left;
+  font-family: "Comfortaa", cursive;
+  background-color: rgb(177,156,249);
+  border:white 1px solid;
+  padding:24px;
+  filter:alpha(opacity = 80);
+  -moz-opacity:.8;
+  opacity:.8;
+  border-radius: 15px;
 }
 
 ul {
