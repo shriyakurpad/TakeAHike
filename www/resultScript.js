@@ -39,9 +39,12 @@
     } else {
       toBeDisplayed = "Sorry, couldn't find that key :(";
     }
-    document.getElementById('loadValue').innerHTML = "Length:" + theLength;
-    document.getElementById('loadValue2').innerHTML = "Name of Hike: " + theName;
+    document.getElementById('loadLength').innerHTML = "Length:" + theLength;
+    document.getElementById('loadName').innerHTML = "Name of Hike: " + theName;
   });
+  }
+  function chooseHikes() {
+
   }
   /*function loadData(){
   var key = document.getElementById('loadKey').value;
