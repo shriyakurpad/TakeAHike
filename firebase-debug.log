@@ -1,0 +1,28 @@
+[debug] [2017-08-18T17:18:21.796Z] ----------------------------------------------------------------------
+[debug] [2017-08-18T17:18:21.796Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-18T17:18:21.796Z] CLI Version:   3.9.2
+[debug] [2017-08-18T17:18:21.796Z] Platform:      win32
+[debug] [2017-08-18T17:18:21.796Z] Node Version:  v6.11.2
+[debug] [2017-08-18T17:18:21.796Z] Time:          Fri Aug 18 2017 10:18:21 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-18T17:18:21.796Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-18T17:18:21.843Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-18T17:18:21.843Z] > authorizing via signed-in user
+[debug] [2017-08-18T17:18:21.859Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/takeahike-86d41  
+ Fri Aug 18 2017 10:18:21 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-18T17:18:22.424Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-18T17:18:22.440Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/takeahike-86d41/tokens  
+ Fri Aug 18 2017 10:18:22 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-18T17:18:22.923Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\hp\Desktop\Megan2'...
+[info] 
+[debug] [2017-08-18T17:18:22.955Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/takeahike-86d41  
+ Fri Aug 18 2017 10:18:22 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-18T17:18:23.502Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-18T17:18:23.502Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/660810891875/clients/_:getWebAppConfig  
+ Fri Aug 18 2017 10:18:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-18T17:18:23.955Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: www
+[info] +  hosting: Local server: http://localhost:5000
+
